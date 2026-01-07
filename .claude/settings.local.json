@@ -31,7 +31,10 @@
       "Bash(timeout 10s cd backend)",
       "Bash(python -m uvicorn src.main:app --host 0.0.0.0 --port 8001)",
       "Bash(timeout 10 python -m uvicorn src.main:app --host 0.0.0.0 --port 8000)",
-      "Bash(timeout 10 python -m uvicorn src.main:app --host 0.0.0.0 --port 8001)"
+      "Bash(timeout 10 python -m uvicorn src.main:app --host 0.0.0.0 --port 8001)",
+      "Bash(git remote add origin https://github.com/sadiarajpoot/hackthon_phase_2.git)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)"
     ]
   }
 }

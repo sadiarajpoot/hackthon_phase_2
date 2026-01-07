@@ -1,3 +1,14 @@
+---
+title: Todo App Backend
+emoji: 🚀
+colorFrom: purple
+colorTo: blue
+sdk: docker
+pinned: false
+license: mit
+python_version: "3.9"
+---
+
 # Todo Full-Stack Web Application
 
 A multi-user todo web application with JWT authentication and user data isolation. The application follows a monorepo architecture with Next.js frontend and FastAPI backend, using Neon PostgreSQL for persistence and Better Auth for authentication. The system supports full CRUD operations on tasks with proper user isolation.
